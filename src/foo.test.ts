@@ -1,4 +1,4 @@
-import { registerSourceCode } from "lara-js/jest/jestHelpers.js";
+import { registerSourceCode } from "@specs-feup/lara/jest/jestHelpers.js";
 
 import { foo } from "./foo.js";
 

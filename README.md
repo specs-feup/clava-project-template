@@ -10,7 +10,7 @@ Execute the following commands to download all the required code:
 npm install
 ```
 
-## Executing Clava-JS
+## Executing Clava
 
 You can execute your project in Clava by running the following on your terminal
 

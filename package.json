@@ -1,5 +1,5 @@
 {
-    "name": "clava-project-template",
+    "name": "@specs-feup/clava-project-template",
     "version": "1.0.0",
     "author": "L. Sousa",
     "description": "A template for developing projects for Clava in Typescript",

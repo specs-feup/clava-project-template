@@ -10,15 +10,21 @@ Execute the following commands to download all the required code:
 npm install
 ```
 
-## Executing Clava
+## Compiling and executing Clava-based project
 
-You can execute your project in Clava by running the following on your terminal
+First you need to compile the TypeScript files to JavaScript:
+
+```bash
+npm run build
+```
+
+Then you can execute your project by running the following on your terminal
 
 ```bash
 npm run run
 ```
 
-Take a look inside the `scripts` field in the `package.json` file for more information.
+By default it will run the script `main.ts`. Take a look inside the `scripts` field in the `package.json` file for more information.
 
 You can also run tests, get test coverage information and generate documentation for your project.
 

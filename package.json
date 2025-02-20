@@ -29,7 +29,8 @@
         "test:watch": "npm run test -- --watch"
     },
     "dependencies": {
-        "@specs-feup/clava": "^3.0.1"
+        "@specs-feup/clava": "^3.0.5",
+        "@specs-feup/lara": "^3.0.4"
     },
     "devDependencies": {
         "@jest/globals": "^29.7.0",

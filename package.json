@@ -18,15 +18,15 @@
       "typedoc.config.js"
     ],     
     "scripts": {
-        "run": "npx clava classic dist/main.js -p CxxSources/",
-        "run:watch": "npx clava dist/main.js -w dist/main.js -- clang CxxSources/",
+        "run": "clava classic dist/main.js -p CxxSources/",
+        "run:watch": "clava dist/main.js -w dist/main.js -- clang CxxSources/",
         "build": "tsc",
         "build:watch": "tsc --watch",
         "lint": "eslint .",
         "docs": "typedoc",
         "test": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --detectOpenHandles --forceExit src",
-        "test:cov": "npm run test -- --coverage",
-        "test:watch": "npm run test -- --watch"
+        "test:cov": "node --run test -- --coverage",
+        "test:watch": "node --run test -- --watch"
     },
     "dependencies": {
         "@specs-feup/clava": "^3.0.5",

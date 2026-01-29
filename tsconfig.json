@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*.ts"],
+  "include": ["src"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
   "compilerOptions": {
     "outDir": "dist",
@@ -13,6 +13,5 @@
     "sourceMap": true,
     "declarationMap": true,
     "allowSyntheticDefaultImports": true
-    //"esModuleInterop": true
   }
 }
